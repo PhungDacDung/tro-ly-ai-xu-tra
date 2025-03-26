@@ -1,0 +1,185 @@
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: Chroma.__init__() got an unexpected keyword argument 'batch_size'
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: Embedding dimension 768 does not match collection dimensionality 384
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: Embedding dimension 768 does not match collection dimensionality 384
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: cannot pickle 'weakref.ReferenceType' object
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: cannot pickle 'weakref.ReferenceType' object
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: In Chroma v0.6.0, list_collections only returns collection names. Use Client.get_collection(my_collection) to access name. See https://docs.trychroma.com/deployment/migration for more information.
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: In Chroma v0.6.0, list_collections only returns collection names. Use Client.get_collection(my_collection) to access name. See https://docs.trychroma.com/deployment/migration for more information.
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:\u0110ã t\u1ea1o và l\u01b0u vector_store vào ChromaDB.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+ERROR:__main__:L\u1ed7i khi x\u1eed lý files: In Chroma v0.6.0, list_collections only returns collection names. Use Client.get_collection(my_collection) to access name. See https://docs.trychroma.com/deployment/migration for more information.
+ERROR:__main__:L\u1ed7i khi kh\u1edfi t\u1ea1o: In Chroma v0.6.0, list_collections only returns collection names. Use Client.get_collection(my_collection) to access name. See https://docs.trychroma.com/deployment/migration for more information.
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:T\u1ea3i vector_store t\u1eeb ChromaDB t\u1ed3n t\u1ea1i.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:T\u1ea3i vector_store t\u1eeb ChromaDB t\u1ed3n t\u1ea1i.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-260-993
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2025 22:25:35] "OPTIONS /ask HTTP/1.1" 200 -
+INFO:__main__:Context for question 'Trà Thái Nguyên b\u1eaft ngu\u1ed3n t\u1eeb \u0111âu và khi nào?':
+Cùng v\u1edbi vi\u1ec7c s\u1ea3n xu\u1ea5t chè, v\u0103n hoá trà Thái Nguyên có nét \u0111\u1eb7c tr\u01b0ng, t\u1eeb cách pha trà, dâng trà và th\u01b0\u1edfng trà. Nh\u1eefng \u0111i\u1ec1u \u0111ó t\u01b0\u1edfng nh\u01b0 \u0111\u01a1n gi\u1ea3n nh\u01b0ng khi tìm hi\u1ec3u sâu s\u1ebd th\u1ea5y r\u1ea5t công phu, t\u1ec9 m\u1ec9.
+Riêng v\u1ec1 pha trà \u0111ã có th\u1ec3 coi là m\u1ed9t “môn ngh\u1ec7 thu\u1eadt”, v\u1edbi quy t\u1eafc "Nh\u1ea5t th\u1ee7y, nhì trà, tam pha, t\u1ee9 \u1ea5m", t\u1ee9c là: Ch\u1ecdn n\u01b0\u1edbc pha; ch\u1ecdn trà ngon; cách pha t\u1ea1o nên h\u01b0\u01a1ng v\u1ecb c\u1ee7a chén trà; cách ch\u1ecdn \u1ea5m pha có th\u1ec3 giúp gi\u1eef h\u01b0\u01a1ng v\u1ecb, c\u0169ng nh\u01b0 gi\u1eef nhi\u1ec7t lâu h\u01a1n.
+Bà Nguy\u1ec5n Th\u1ecb Lan (\u1edf huy\u1ec7n \u0110\u1ecbnh Hóa, Thái Nguyên)...
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2025 22:26:01] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2025 22:28:19] "OPTIONS /ask HTTP/1.1" 200 -
+INFO:__main__:Context for question 'L\u1ecbch s\u1eed trà Thái Nguyên':
+N\u1ed9i dung:
+"Nh\u1ea5t th\u1ee7y, nhì trà, tam pha, t\u1ee9 \u1ea5m"
+Nh\u1eafc \u0111\u1ebfn Thái Nguyên là nói \u0111\u1ebfn cây chè và v\u0103n hóa trà, v\u1edbi các vùng chè n\u1ed5i ti\u1ebfng c\u1ea3 n\u01b0\u1edbc nh\u01b0 Tân C\u01b0\u01a1ng, La B\u1eb1ng (huy\u1ec7n \u0110\u1ea1i T\u1eeb), Tr\u1ea1i Cài (huy\u1ec7n \u0110\u1ed3ng H\u1ef7), Khe C\u1ed1c, T\u1ee9c Tranh (Phú L\u01b0\u01a1ng)… N\u1ebfu x\u01b0a kia mi\u1ebfng tr\u1ea7u \u0111\u01b0\u1ee3c xem là b\u1eaft \u0111\u1ea7u câu chuy\u1ec7n thì nay, chén trà \u0111\u01b0\u1ee3c xem là không th\u1ec3 thi\u1ebfu c\u1ea3 trong sinh ho\u1ea1t hàng ngày hay các cu\u1ed9c g\u1eb7p m\u1eb7t v\u1ec1 công vi\u1ec7c, th\u0103m h\u1ecfi...
+Bà Nguy\u1ec5n Th\u1ecb Mai – Giám \u0111\u1ed1c S\u1edf V\u0103n hóa, Th\u1ec3 thao và Du l\u1ecbch Thái Nguyên cho bi\u1ebft v\u0103n hoá...
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2025 22:28:25] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2025 22:29:48] "OPTIONS /ask HTTP/1.1" 200 -
+INFO:__main__:Context for question 'nh\u1eefng l\u1ee3i ích c\u1ee7a cây chè thái nguyên':
+\u0110i sâu vào tìm hi\u1ec3u v\u1ec1 các gi\u1ed1ng cây chè \u0111\u01b0\u1ee3c tr\u1ed3ng trên \u0111\u1ea5t Thái Nguyên m\u1edbi th\u1ea5y \u0111\u01b0\u1ee3c s\u1ef1 khác nhau v\u1ec1 gi\u1ed1ng và ch\u1ea5t \u0111\u1ea5t m\u1ed7i vùng s\u1ebd \u0111em l\u1ea1i m\u1ed9t ch\u1ea5t v\u1ecb riêng, \u0111a d\u1ea1ng v\u1ec1 ch\u1ee7ng lo\u1ea1i. T\u1ea1i Thái Nguyên, các gi\u1ed1ngchèth\u01b0\u1eddng \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng ph\u1ed5 bi\u1ebfn nh\u01b0: Chè B\u1ea1ch H\u1ea1c (chè h\u1ea1t), chè Bát Tiên, chè lai LDP1, LDP2, TRI 777, chè Tô Hi\u1ec7u, Hoa Nh\u1eadt Kim, Hùng \u0110ình B\u1ea1ch, Phúc Th\u1ecd M\u01b0\u1eddi, Keo Am Tích, Phúc V\u0103n Tiên,… Trong \u0111ó:
+Gi\u1ed1ngcây chè\u0111\u01b0\u1ee3c tr\u1ed3ng ph\u1ed5 bi\u1ebfn nh\u1ea5t t\u1ea1i Thái Nguyên \u0111\u01b0\u1ee3c tr\u1ed3ng b\u1eb1ng h\u1ea1t, có s\u1ee9c ch\u1ed1ng ch\u1ed9...
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2025 22:30:09] "POST /ask HTTP/1.1" 200 -
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:T\u1ea3i vector_store t\u1eeb ChromaDB t\u1ed3n t\u1ea1i.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:T\u1ea3i vector_store t\u1eeb ChromaDB t\u1ed3n t\u1ea1i.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-260-993
+INFO:werkzeug: * Detected change in 'D:\\Users\\Admin\\React-project\\ai-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:T\u1ea3i vector_store t\u1eeb ChromaDB t\u1ed3n t\u1ea1i.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:T\u1ea3i vector_store t\u1eeb ChromaDB t\u1ed3n t\u1ea1i.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-260-993
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 17:21:57] "OPTIONS /ask HTTP/1.1" 200 -
+INFO:__main__:Context for question 'Trà Thái Nguyên là gì?':
+“Nh\u1ea5t th\u1ee7y” t\u1ee9c là ch\u1ecdn n\u01b0\u1edbc \u0111\u1ec3 pha trà ph\u1ea3i là lo\u1ea1i n\u01b0\u1edbc s\u1ea1ch, t\u1eeb \u0111\u1ea7u ngu\u1ed3n. “Nhì trà” là ch\u1ecdn th\u1ee9 trà ngon, t\u1eeb màu s\u1eafc \u0111\u1ebfn h\u01b0\u01a1ng v\u1ecb t\u1ef1 nhiên \u0111úng chu\u1ea9n t\u1ea1i Thái Nguyên “Tam pha” là m\u1ed9t ph\u1ea7n r\u1ea5t quan tr\u1ecdng \u0111\u1ec3 t\u1ea1o nên h\u01b0\u01a1ng v\u1ecb c\u1ee7a chén trà, \u0111ó là tráng \u1ea5m trà, tráng n\u01b0\u1edbc s\u01a1 qua trà r\u1ed3i m\u1edbi pha trà. “T\u1ee9 \u1ea5m” là cách ch\u1ecdn \u1ea5m pha trà gi\u1eefa vô vàn ch\u1ee7ng lo\u1ea1i, nên dùng \u1ea5m b\u1eb1ng g\u1ed1m (ho\u1eb7c \u1ea5m t\u1eed sa) vì lo\u1ea1i này có th\u1ec3 giúp gi\u1eef nhi\u1ec7t lâu h\u01a1n, mùi v\u1ecb c\u1ee7a trà c\u0169ng s\u1ebd \u0111\u01b0\u1ee3c gi\u1eef nguyên v\u1eb9n.
+V\u0103n hóa trà Thái Ngu...
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 17:22:13] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Users\\Admin\\React-project\\ai-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:T\u1ea3i vector_store t\u1eeb ChromaDB t\u1ed3n t\u1ea1i.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-260-993
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 17:23:09] "OPTIONS /ask HTTP/1.1" 200 -
+INFO:__main__:Context for question 'Trà Thái Nguyên là gì?':
+“Nh\u1ea5t th\u1ee7y” t\u1ee9c là ch\u1ecdn n\u01b0\u1edbc \u0111\u1ec3 pha trà ph\u1ea3i là lo\u1ea1i n\u01b0\u1edbc s\u1ea1ch, t\u1eeb \u0111\u1ea7u ngu\u1ed3n. “Nhì trà” là ch\u1ecdn th\u1ee9 trà ngon, t\u1eeb màu s\u1eafc \u0111\u1ebfn h\u01b0\u01a1ng v\u1ecb t\u1ef1 nhiên \u0111úng chu\u1ea9n t\u1ea1i Thái Nguyên “Tam pha” là m\u1ed9t ph\u1ea7n r\u1ea5t quan tr\u1ecdng \u0111\u1ec3 t\u1ea1o nên h\u01b0\u01a1ng v\u1ecb c\u1ee7a chén trà, \u0111ó là tráng \u1ea5m trà, tráng n\u01b0\u1edbc s\u01a1 qua trà r\u1ed3i m\u1edbi pha trà. “T\u1ee9 \u1ea5m” là cách ch\u1ecdn \u1ea5m pha trà gi\u1eefa vô vàn ch\u1ee7ng lo\u1ea1i, nên dùng \u1ea5m b\u1eb1ng g\u1ed1m (ho\u1eb7c \u1ea5m t\u1eed sa) vì lo\u1ea1i này có th\u1ec3 giúp gi\u1eef nhi\u1ec7t lâu h\u01a1n, mùi v\u1ecb c\u1ee7a trà c\u0169ng s\u1ebd \u0111\u01b0\u1ee3c gi\u1eef nguyên v\u1eb9n.
+V\u0103n hóa trà Thái Ngu...
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 17:23:21] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Users\\Admin\\React-project\\ai-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:\u0110ang x\u1eed lý các file txt...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:__main__:T\u1ea3i vector_store t\u1eeb ChromaDB t\u1ed3n t\u1ea1i.
+INFO:__main__:X\u1eed lý hoàn t\u1ea5t, kh\u1edfi \u0111\u1ed9ng server...
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-260-993
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 17:27:07] "OPTIONS /ask HTTP/1.1" 200 -
+INFO:__main__:Context for question 'Trà Thái Nguyên là gì?':
+“Nh\u1ea5t th\u1ee7y” t\u1ee9c là ch\u1ecdn n\u01b0\u1edbc \u0111\u1ec3 pha trà ph\u1ea3i là lo\u1ea1i n\u01b0\u1edbc s\u1ea1ch, t\u1eeb \u0111\u1ea7u ngu\u1ed3n. “Nhì trà” là ch\u1ecdn th\u1ee9 trà ngon, t\u1eeb màu s\u1eafc \u0111\u1ebfn h\u01b0\u01a1ng v\u1ecb t\u1ef1 nhiên \u0111úng chu\u1ea9n t\u1ea1i Thái Nguyên “Tam pha” là m\u1ed9t ph\u1ea7n r\u1ea5t quan tr\u1ecdng \u0111\u1ec3 t\u1ea1o nên h\u01b0\u01a1ng v\u1ecb c\u1ee7a chén trà, \u0111ó là tráng \u1ea5m trà, tráng n\u01b0\u1edbc s\u01a1 qua trà r\u1ed3i m\u1edbi pha trà. “T\u1ee9 \u1ea5m” là cách ch\u1ecdn \u1ea5m pha trà gi\u1eefa vô vàn ch\u1ee7ng lo\u1ea1i, nên dùng \u1ea5m b\u1eb1ng g\u1ed1m (ho\u1eb7c \u1ea5m t\u1eed sa) vì lo\u1ea1i này có th\u1ec3 giúp gi\u1eef nhi\u1ec7t lâu h\u01a1n, mùi v\u1ecb c\u1ee7a trà c\u0169ng s\u1ebd \u0111\u01b0\u1ee3c gi\u1eef nguyên v\u1eb9n.
+V\u0103n hóa trà Thái Ngu...
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 17:27:11] "POST /ask HTTP/1.1" 200 -
