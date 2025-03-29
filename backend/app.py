@@ -6,6 +6,8 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 import requests
+import re
+
 
 app = Flask(__name__)
 CORS(app)
@@ -20,6 +22,49 @@ def preprocess_text_vietnamese(text):
     text = ViTokenizer.tokenize(text)
     # Có thể thêm các bước chuẩn hóa khác nếu cần (xóa ký tự đặc biệt, chuyển về chữ thường, v.v.)
     return text
+
+
+def chunk_by_semantics(text):
+    # Tách thành các câu
+    sentences = re.split(r'(?<=[.!?])\s+', text.strip())
+    chunks = []
+    current_chunk = ""
+    sentence_count = 0
+    target_sentences=2
+    max_sentences=4
+    
+    # Từ khóa chuyển ý (có thể tùy chỉnh theo tài liệu)
+    transition_keywords = ["và", "nhưng", "vì", "sau đó", "tiếp theo", "cuối cùng"]
+    
+    for i, sentence in enumerate(sentences):
+        current_chunk += sentence + " "
+        sentence_count += 1
+        
+        # Tách từ để kiểm tra từ khóa
+        tokenized = ViTokenizer.tokenize(sentence)
+        words = tokenized.split()
+        last_word = words[-1].replace("_", " ") if words else ""
+        
+        # Kiểm tra ranh giới ý nghĩa
+        is_transition = any(kw in sentence.lower() for kw in transition_keywords)
+        is_end_of_thought = last_word.endswith(".") and not sentences[i].strip().startswith(("(", "+"))
+        
+        # Cắt chunk nếu:
+        # - Đủ 3-4 câu và không phải giữa ý quan trọng
+        # - Gặp dấu chấm kết thúc ý lớn và đã có ít nhất 2 câu
+        if (sentence_count >= target_sentences and not is_transition) or \
+           (sentence_count >= max_sentences) or \
+           (is_end_of_thought and sentence_count >= 2):
+            chunks.append(current_chunk.strip())
+            current_chunk = ""
+            sentence_count = 0
+    
+    # Thêm phần còn lại (nếu có)
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+    
+    # Lọc bỏ chunk rỗng
+    return [chunk for chunk in chunks if chunk]
 
 def extract_text_from_file(file_path):
     try:
@@ -48,8 +93,8 @@ def process_files(directory_path):
         for txt_file in txt_files:
             file_path = os.path.join(directory_path, txt_file)
             text = extract_text_from_file(file_path)
-            # Chia nhỏ văn bản thủ công (chunk_size = 600 ký tự)
-            chunks = [text[i:i+200] for i in range(0, len(text), 550)]  # overlap 50 ký tự
+           
+            chunks = chunk_by_semantics(text)  
             all_texts.extend(chunks)
         
         if not all_texts:
@@ -106,7 +151,7 @@ def ask_question():
         question_embedding = model.encode([preprocess_text_vietnamese(question)], convert_to_numpy=True)
         
         # Tìm kiếm k văn bản gần nhất
-        k = 5
+        k = 10
         distances, indices = index.search(question_embedding, k)
         relevant_texts = [texts[i] for i in indices[0]]
         context = " ".join(relevant_texts)

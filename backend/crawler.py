@@ -93,16 +93,8 @@ def crawl_multiple_pages(urls, folder="data"):
 
 # Danh sách URL cần crawl
 urls = [
-    "https://vov.vn/van-hoa/di-san/net-van-hoa-tra-tai-thai-nguyen-911218.vov",
-    "https://tuoitrethudo.vn/ky-3-van-hoa-tra-thai-net-dep-di-san-quoc-gia-251535.html",
     "https://loctancuong.com/lich-su-phat-trien-cua-cay-tra-thai-nguyen/",
-    "https://luhanhvietnam.com.vn/du-lich/khong-gian-van-hoa-tra-tan-cuong-thai-nguyen.html",
-    "https://thainguyen.gov.vn/van-hoa-tra/-/asset_publisher/L0n17VJXU23O/content/thai-nguyen-phat-trien-du-lich-gan-voi-san-pham-tra-va-van-hoa-tra?inheritRedirect=true",
-    "https://trathainguyen.net.vn/bat-mi-ve-nguon-goc-lich-su-cua-tra-thai-nguyen-ngon-nhat-bid4804.html#:~:text=Kh%E1%BB%9Fi%20ngu%E1%BB%93n%20c%E1%BB%A7a%20tr%C3%A0%20Th%C3%A1i%20Nguy%C3%AAn%3A,-Tr%C3%A0%20Th%C3%A1i%20Nguy%C3%AAn&text=Ngu%E1%BB%93n%20g%E1%BB%91c%20c%E1%BB%A7a%20tr%C3%A0%20Th%C3%A1i,bi%E1%BB%87t%20th%C6%A1m%20ngon%2C%20thanh%20tao.",
-    "https://thainguyen.gov.vn/vung-tra/-/asset_publisher/L0n17VJXU23O/content/tim-hieu-ve-vung-tra-thai-nguyen?inheritRedirect=true&utm_source=chatgpt.com",
-    "https://tancuongxanh.vn/tra-thai-nguyen-la-gi?srsltid=AfmBOooKU4LrUuzaVsAqXxLASystm7sk0f4n3F-71kGDsqWnK3YLqwNN&utm_source=chatgpt.com",
     "https://khuyennongvn.gov.vn/khoa-hoc-cong-nghe/khcn-trong-nuoc/quy-trinh-san-xuat-va-che-bien-che-thai-nguyen-22866.html",
-    "https://vietcotra.vn/van-hoa-tra/nguon-goc-tra-thai-nguyen-c8a239.html?srsltid=AfmBOopq7hVfr49XFHtY3MAxrtcw2ADeJucny2_hOFnJijgMdweCb8aI",
     "",
 ]
 
