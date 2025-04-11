@@ -1,6 +1,7 @@
 // src/App.js
 import React, { useState, useEffect, useRef } from 'react';
 import '../App.css';
+import ReactMarkdown from 'react-markdown';
 
 const ChatApp = () => {
   const [messages, setMessages] = useState([]);
@@ -77,7 +78,10 @@ const ChatApp = () => {
               key={index}
               className={`message ${msg.sender === 'user' ? 'user' : 'bot'}`}
             >
-              <div className="message-content">{msg.text}</div>
+              {/* <div className="message-content">{msg.text}</div> */}
+              <div className="message-content">
+              <ReactMarkdown>{msg.text}</ReactMarkdown>
+              </div>
             </div>
           ))}
           {loading && (

@@ -22,7 +22,11 @@ def crawl_data(url):
         print(f"Tiêu đề của {url}: {title}")
         
         # Lấy nội dung từ các thẻ <p>
-        paragraphs = soup.find_all("p")
+        # paragraphs = soup.find_all("p")
+
+            # Lấy nội dung chính (có thể cần tinh chỉnh)
+        content_div = soup.find("div", class_="entry-content")  # Lớp chứa nội dung bài viết
+        paragraphs = content_div.find_all("p") if content_div else []
         content = "\n".join([p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)])
         
         if not content:
@@ -95,6 +99,21 @@ def crawl_multiple_pages(urls, folder="data"):
 urls = [
     "https://loctancuong.com/lich-su-phat-trien-cua-cay-tra-thai-nguyen/",
     "https://khuyennongvn.gov.vn/khoa-hoc-cong-nghe/khcn-trong-nuoc/quy-trinh-san-xuat-va-che-bien-che-thai-nguyen-22866.html",
+    "https://thainguyen.gov.vn/vung-tra/-/asset_publisher/L0n17VJXU23O/content/cac-vung-tra-thai-nguyen-ngon-noi-tieng",
+    "https://nhathuoclongchau.com.vn/bai-viet/uong-tra-co-tac-dung-gi-tong-hop-nhung-dieu-ban-can-biet.html",
+    "https://www.vinmec.com/vie/bai-viet/cong-dung-tu-nhien-cua-tra-vi",
+    "https://thainguyen.gov.vn/bai-viet-ve-thai-nguyen/-/asset_publisher/L0n17VJXU23O/content/thai-nguyen-hap-dan-du-lich-cong-ong-gan-voi-van-hoa-che/20181",
+    "https://trathainguyen.net.vn/bat-mi-ve-nguon-goc-lich-su-cua-tra-thai-nguyen-ngon-nhat-bid4804.html#:~:text=Tr%C3%A0%20Th%C3%A1i%20Nguy%C3%AAn%20c%C3%B3%20ngu%E1%BB%93n,v%C3%A0%20ph%C3%A1t%20tri%E1%BB%83n%20c%C3%A2y%20tr%C3%A0.",
+    "https://thainguyen.gov.vn/bai-viet-thai-nguyen/-/asset_publisher/L0n17VJXU23O/content/giu-tinh-hoa-hon-cot-vung-che-tan-cuong?inheritRedirect=true",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "",
 ]
 

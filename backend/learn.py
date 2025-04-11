@@ -1,6 +1,8 @@
 import os
 import re
 from pyvi import ViTokenizer
+import requests
+from bs4 import BeautifulSoup
 
 texts = []
 
@@ -197,8 +199,8 @@ def process_files_in_folder(folder_path):
             
             # Chia thành chunks
             # chunks = chunk_text(preprocess_text_vietnamese(text))
-            # chunks = chunk_text(text)
-            chunks = chunk_by_semantics(text)
+            # chunks = chunk_by_semantics(text)
+            chunks = chunk_by_paragraphs(text)
             
             # In kết quả chunking
             print(f"Tổng số chunks: {len(chunks)}")
@@ -210,5 +212,43 @@ def process_files_in_folder(folder_path):
         print(f"Lỗi: {str(e)}")
 
 # Thư mục data
-folder_path = "data"
+folder_path = "data_test"
 process_files_in_folder(folder_path)
+
+# Hàm crawl dữ liệu từ một URL
+def crawl_data(url):
+    """Crawl tiêu đề và nội dung từ một URL."""
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/91.0.4472.124"
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code != 200:
+            print(f"Không thể truy cập {url}. Mã trạng thái: {response.status_code}")
+            return None
+        
+        soup = BeautifulSoup(response.content, "html.parser")
+        # Lấy tiêu đề, nếu không có thì dùng giá trị mặc định
+        title = soup.find("title").get_text(strip=True) if soup.find("title") else "Khong_tim_thay_tieu_de"
+        print(f"Tiêu đề của {url}: {title}")
+        
+        # Lấy nội dung từ các thẻ <p>
+        # paragraphs = soup.find_all("p")
+
+            # Lấy nội dung chính (có thể cần tinh chỉnh)
+        content_div = soup.find("div", class_="entry-content")  # Lớp chứa nội dung bài viết
+        paragraphs = content_div.find_all("p") if content_div else []
+        content = "\n".join([p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)])
+        
+        if not content:
+            print(f"Không tìm thấy nội dung trong thẻ <p> tại {url}. Kiểm tra cấu trúc HTML.")
+            return None
+        
+        return {"title": title, "content": content}
+    
+    except requests.RequestException as e:
+        print(f"Đã xảy ra lỗi khi crawl {url}: {e}")
+        return None
+url = "https://thainguyen.gov.vn/vung-tra/-/asset_publisher/L0n17VJXU23O/content/cac-vung-tra-thai-nguyen-ngon-noi-tieng"
+
+# print(crawl_data(url))
